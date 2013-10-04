@@ -1,0 +1,14 @@
+PODS:
+  - Kadabra (0.0.1)
+
+DEPENDENCIES:
+  - Kadabra (from `https://github.com/Dimillian/Kadabra.git`)
+
+EXTERNAL SOURCES:
+  Kadabra:
+    :git: https://github.com/Dimillian/Kadabra.git
+
+SPEC CHECKSUMS:
+  Kadabra: a119099e3d70486031abce3bcc59c04f402a100b
+
+COCOAPODS: 0.25.0
