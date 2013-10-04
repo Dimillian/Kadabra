@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Kadabra/Kadabra/Kadabra.h>
 
 @interface KDViewController : UIViewController
 

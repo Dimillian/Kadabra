@@ -7,5 +7,5 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "UIViewController+KDLoader.h"
+#import "UIViewController+Kadabra.h"
 
