@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FBE0E9E17FEE9BF007C983B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBE0E9D17FEE9BF007C983B /* Foundation.framework */; };
+		9FBE0EA317FEE9BF007C983B /* Kadabra.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9FBE0EA217FEE9BF007C983B /* Kadabra.h */; };
+		9FBE0EAC17FEE9BF007C983B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBE0EAB17FEE9BF007C983B /* XCTest.framework */; };
+		9FBE0EAD17FEE9BF007C983B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBE0E9D17FEE9BF007C983B /* Foundation.framework */; };
+		9FBE0EAF17FEE9BF007C983B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBE0EAE17FEE9BF007C983B /* UIKit.framework */; };
+		9FBE0EB217FEE9BF007C983B /* libKadabra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBE0E9A17FEE9BF007C983B /* libKadabra.a */; };
+		9FBE0EB817FEE9BF007C983B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FBE0EB617FEE9BF007C983B /* InfoPlist.strings */; };
+		9FBE0EBA17FEE9BF007C983B /* KadabraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE0EB917FEE9BF007C983B /* KadabraTests.m */; };
+		9FBE107917FEF7AA007C983B /* UIViewController+KDLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE107817FEF7AA007C983B /* UIViewController+KDLoader.m */; };
+		9FBE107B17FEF835007C983B /* UIViewController+KDLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9FBE107717FEF7AA007C983B /* UIViewController+KDLoader.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FBE0EB017FEE9BF007C983B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FBE0E9217FEE9BF007C983B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FBE0E9917FEE9BF007C983B;
+			remoteInfo = Kadabra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9FBE0E9817FEE9BF007C983B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9FBE107B17FEF835007C983B /* UIViewController+KDLoader.h in CopyFiles */,
+				9FBE0EA317FEE9BF007C983B /* Kadabra.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9FBE0E9A17FEE9BF007C983B /* libKadabra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKadabra.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBE0E9D17FEE9BF007C983B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FBE0EA117FEE9BF007C983B /* Kadabra-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kadabra-Prefix.pch"; sourceTree = "<group>"; };
+		9FBE0EA217FEE9BF007C983B /* Kadabra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kadabra.h; sourceTree = "<group>"; };
+		9FBE0EAA17FEE9BF007C983B /* KadabraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KadabraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBE0EAB17FEE9BF007C983B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9FBE0EAE17FEE9BF007C983B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9FBE0EB517FEE9BF007C983B /* KadabraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KadabraTests-Info.plist"; sourceTree = "<group>"; };
+		9FBE0EB717FEE9BF007C983B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FBE0EB917FEE9BF007C983B /* KadabraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KadabraTests.m; sourceTree = "<group>"; };
+		9FBE107717FEF7AA007C983B /* UIViewController+KDLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KDLoader.h"; sourceTree = "<group>"; };
+		9FBE107817FEF7AA007C983B /* UIViewController+KDLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KDLoader.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FBE0E9717FEE9BF007C983B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBE0E9E17FEE9BF007C983B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBE0EA717FEE9BF007C983B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBE0EB217FEE9BF007C983B /* libKadabra.a in Frameworks */,
+				9FBE0EAC17FEE9BF007C983B /* XCTest.framework in Frameworks */,
+				9FBE0EAF17FEE9BF007C983B /* UIKit.framework in Frameworks */,
+				9FBE0EAD17FEE9BF007C983B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FBE0E9117FEE9BF007C983B = {
+			isa = PBXGroup;
+			children = (
+				9FBE0E9F17FEE9BF007C983B /* Kadabra */,
+				9FBE0EB317FEE9BF007C983B /* KadabraTests */,
+				9FBE0E9C17FEE9BF007C983B /* Frameworks */,
+				9FBE0E9B17FEE9BF007C983B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FBE0E9B17FEE9BF007C983B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FBE0E9A17FEE9BF007C983B /* libKadabra.a */,
+				9FBE0EAA17FEE9BF007C983B /* KadabraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FBE0E9C17FEE9BF007C983B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FBE0E9D17FEE9BF007C983B /* Foundation.framework */,
+				9FBE0EAB17FEE9BF007C983B /* XCTest.framework */,
+				9FBE0EAE17FEE9BF007C983B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FBE0E9F17FEE9BF007C983B /* Kadabra */ = {
+			isa = PBXGroup;
+			children = (
+				9FBE0EA217FEE9BF007C983B /* Kadabra.h */,
+				9FBE0EA017FEE9BF007C983B /* Supporting Files */,
+				9FBE107717FEF7AA007C983B /* UIViewController+KDLoader.h */,
+				9FBE107817FEF7AA007C983B /* UIViewController+KDLoader.m */,
+			);
+			path = Kadabra;
+			sourceTree = "<group>";
+		};
+		9FBE0EA017FEE9BF007C983B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FBE0EA117FEE9BF007C983B /* Kadabra-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FBE0EB317FEE9BF007C983B /* KadabraTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FBE0EB917FEE9BF007C983B /* KadabraTests.m */,
+				9FBE0EB417FEE9BF007C983B /* Supporting Files */,
+			);
+			path = KadabraTests;
+			sourceTree = "<group>";
+		};
+		9FBE0EB417FEE9BF007C983B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FBE0EB517FEE9BF007C983B /* KadabraTests-Info.plist */,
+				9FBE0EB617FEE9BF007C983B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FBE0E9917FEE9BF007C983B /* Kadabra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FBE0EBD17FEE9BF007C983B /* Build configuration list for PBXNativeTarget "Kadabra" */;
+			buildPhases = (
+				9FBE0E9617FEE9BF007C983B /* Sources */,
+				9FBE0E9717FEE9BF007C983B /* Frameworks */,
+				9FBE0E9817FEE9BF007C983B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kadabra;
+			productName = Kadabra;
+			productReference = 9FBE0E9A17FEE9BF007C983B /* libKadabra.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9FBE0EA917FEE9BF007C983B /* KadabraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FBE0EC017FEE9BF007C983B /* Build configuration list for PBXNativeTarget "KadabraTests" */;
+			buildPhases = (
+				9FBE0EA617FEE9BF007C983B /* Sources */,
+				9FBE0EA717FEE9BF007C983B /* Frameworks */,
+				9FBE0EA817FEE9BF007C983B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FBE0EB117FEE9BF007C983B /* PBXTargetDependency */,
+			);
+			name = KadabraTests;
+			productName = KadabraTests;
+			productReference = 9FBE0EAA17FEE9BF007C983B /* KadabraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FBE0E9217FEE9BF007C983B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Thomas Ricouard";
+			};
+			buildConfigurationList = 9FBE0E9517FEE9BF007C983B /* Build configuration list for PBXProject "Kadabra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FBE0E9117FEE9BF007C983B;
+			productRefGroup = 9FBE0E9B17FEE9BF007C983B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FBE0E9917FEE9BF007C983B /* Kadabra */,
+				9FBE0EA917FEE9BF007C983B /* KadabraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FBE0EA817FEE9BF007C983B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBE0EB817FEE9BF007C983B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FBE0E9617FEE9BF007C983B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBE107917FEF7AA007C983B /* UIViewController+KDLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBE0EA617FEE9BF007C983B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBE0EBA17FEE9BF007C983B /* KadabraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FBE0EB117FEE9BF007C983B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FBE0E9917FEE9BF007C983B /* Kadabra */;
+			targetProxy = 9FBE0EB017FEE9BF007C983B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FBE0EB617FEE9BF007C983B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FBE0EB717FEE9BF007C983B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FBE0EBB17FEE9BF007C983B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FBE0EBC17FEE9BF007C983B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FBE0EBE17FEE9BF007C983B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Kadabra.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kadabra/Kadabra-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9FBE0EBF17FEE9BF007C983B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Kadabra.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kadabra/Kadabra-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9FBE0EC117FEE9BF007C983B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kadabra/Kadabra-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KadabraTests/KadabraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9FBE0EC217FEE9BF007C983B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kadabra/Kadabra-Prefix.pch";
+				INFOPLIST_FILE = "KadabraTests/KadabraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FBE0E9517FEE9BF007C983B /* Build configuration list for PBXProject "Kadabra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBE0EBB17FEE9BF007C983B /* Debug */,
+				9FBE0EBC17FEE9BF007C983B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FBE0EBD17FEE9BF007C983B /* Build configuration list for PBXNativeTarget "Kadabra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBE0EBE17FEE9BF007C983B /* Debug */,
+				9FBE0EBF17FEE9BF007C983B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FBE0EC017FEE9BF007C983B /* Build configuration list for PBXNativeTarget "KadabraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBE0EC117FEE9BF007C983B /* Debug */,
+				9FBE0EC217FEE9BF007C983B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FBE0E9217FEE9BF007C983B /* Project object */;
+}
