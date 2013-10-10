@@ -2,13 +2,13 @@ PODS:
   - Kadabra (0.0.1)
 
 DEPENDENCIES:
-  - Kadabra (from `https://github.com/Dimillian/Kadabra.git`)
+  - Kadabra (from `../../`)
 
 EXTERNAL SOURCES:
   Kadabra:
-    :git: https://github.com/Dimillian/Kadabra.git
+    :path: ../../
 
 SPEC CHECKSUMS:
-  Kadabra: a119099e3d70486031abce3bcc59c04f402a100b
+  Kadabra: 3f333347b944ab33ced79979f3e03969fd637e33
 
 COCOAPODS: 0.25.0

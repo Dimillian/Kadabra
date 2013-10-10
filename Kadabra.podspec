@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/Dimillian/Kadabra.git',
     :tag => '0.0.1'
   }
-  s.ios.deployment_target = '7.0'
+  s.platform = :ios, '7.0'
   s.public_header_files = 'Kadabra/*.h'
   s.source_files = 'Kadabra/*.{h,m}'
   s.requires_arc =  true
